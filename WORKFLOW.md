@@ -1,9 +1,11 @@
-# MoneyPrinterPlus 视频合成工作流
+# MoneyPrinterPlus 视频合成工作流 — Hermes Agent Skill
 
 ## 简介
 
-一份模块化的 AI 视频流水线，将用户主题转化为带配音、字幕、BGM 的竖屏短视频。
+一份模块化的 AI 视频流水线（Hermes Agent skill），将用户主题转化为带配音、字幕、BGM 的竖屏短视频。
 流水线由 5 个独立节点串联：文案生成 → 语音+字幕 → 视频素材 → 背景音乐 → 最终合成。
+
+加载此 skill 后，Hermes Agent 会先展示配置、询问修改，再按序执行 5 个节点。
 
 ## 完整配置一览
 
