@@ -1,0 +1,12 @@
+[project]
+name = "moneyprinter-plus"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "edge-tts>=7.2.8",
+    "moviepy>=2.0.0",
+    "openai>=2.38.0",
+    "pillow>=11.3.0",
+    "playwright>=1.60.0",
+    "requests>=2.34.2",
+]

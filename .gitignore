@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+venv/
+.venv/
+
+# Video output
+output/
+
+# Downloaded materials (runtime generated)
+materials/
+bgm_library/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Browser session artifacts
+.playwright-cli/
+
+# Temp files
+*.tmp
+*.part
+*.ytdl
